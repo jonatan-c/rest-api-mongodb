@@ -1,0 +1,128 @@
+{
+	"info": {
+		"_postman_id": "11aecc2b-b5f7-4d66-b876-751e5709c23c",
+		"name": "CRUD API REST MONGODB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4000/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"estudiar\",\r\n    \"description\":\"java\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/:id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"estudiar\",\r\n    \"description\":\"css\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/612eaa4f9c966238d93181dd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"612eaa4f9c966238d93181dd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/:id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"repasar\",\r\n    \"description\":\"react redux\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/612eaa4f9c966238d93181dd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"612eaa4f9c966238d93181dd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4000/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"estudiar\",\r\n    \"description\":\"css\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4000/612eaa4f9c966238d93181dd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"612eaa4f9c966238d93181dd"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

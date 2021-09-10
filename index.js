@@ -25,6 +25,6 @@ const PORT = process.env.PORT || 4000;
 app.use("/", crudRoutes);
 
 // arrancar la app
-app.listen(PORT, "0.0.0.00", () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`El servidora esta funcionando en el puerto  ${PORT}`);
 });

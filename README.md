@@ -39,10 +39,10 @@ npm install
 ![Deploy](./listapp.png)
 
 ## <a name="technologies"></a>Technologies:
-- React
-- Axios
-- HTML
-- CSS 
+- Node
+- Express
+- Dotenv
+- Mongoose
 
 ## Project management software
 - [ ] Trello: 
